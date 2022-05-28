@@ -206,7 +206,7 @@ public class DefaultCategoryProvider implements CategoryProvider {
 
             publishDeviceCategories();
 
-            // Legacy Cipher Shades. Only show if on mobile.
+            // Legacy Blaze Shades. Only show if on mobile.
             publishProgress(getOnDeviceCategory());
 
             // Live wallpapers -- if the device supports them.
@@ -273,7 +273,7 @@ public class DefaultCategoryProvider implements CategoryProvider {
         /**
          * Return a list of WallpaperInfos specific to this app. Overriding this method will
          * allow derivative projects to add custom wallpaper tiles to the
-         * "Cipher Shades" category.
+         * "Blaze Shades" category.
          */
         protected List<WallpaperInfo> getPrivateDeviceWallpapers() {
             return null;
